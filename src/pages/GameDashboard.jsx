@@ -56,7 +56,7 @@ const GameDashboard = () => {
                     <p>{String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}</p>
                     <p>Arsenal</p>
                 </div>
-                <div id='pitch' style={{ backgroundImage: `url(${pitch})` }} className='w-full h-[200px] border border-white bg-cover bg-center bg-no-repeat relative'>
+                <div id='pitch' style={{ backgroundImage: `url(${pitch})` }} className='w-full h-[200px] md:h-[600px] border border-white bg-cover bg-center bg-no-repeat relative'>
                     <div id='ballMovement' className=''></div>
                     <div className="absolute border border-white/10 bg-white rounded-full w-5 h-5"
                         style={{left: `${position.left}px`,top: `${position.top}px`,}}
