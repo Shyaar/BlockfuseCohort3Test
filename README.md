@@ -1,4 +1,5 @@
-Real-Time Football Match Visualization Dashboard
+**Real-Time Football Match Visualization Dashboard**
+
 This project aims to build a real-time football match visualization dashboard with interactive player movements and live event streaming. The goal is to create a highly interactive and visually dynamic platform that simulates a football game, tracks player and ball movements, and integrates live event overlays.
 
 Key Features:
