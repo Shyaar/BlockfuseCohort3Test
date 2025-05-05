@@ -52,7 +52,7 @@ const GameDashboard = () => {
 
     return (
         <div id='top' className='bg-[#444444] px-4 lg:px-24 py-4 gap-6 flex flex-col items-center justify-center'>
-            <p className=' text-white font-bold text md:text-[32px] '>{teamInfo.homeTeam.name}vs {teamInfo.awayTeam.name}</p>
+            <p className=' text-white font-bold text md:text-[32px] '>{teamInfo.homeTeam.name} vs {teamInfo.awayTeam.name}</p>
 
             <div className='flex flex-col w-full items-center justify-center'>
                 <div id='timer&goals' className='bg-[#111111] p-2 w-fit text-white flex gap-2'>
